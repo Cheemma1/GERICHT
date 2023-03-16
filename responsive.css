@@ -1,0 +1,361 @@
+@media screen and (max-width:1115px) {
+header{
+    height: 100%;
+}
+
+nav{
+    padding: 2rem 1rem;
+}
+.menu{
+    gap: 0.8rem;
+}
+.sublink span{
+    margin-left: 0.8rem;
+} 
+.rot-mob{
+display: none;
+}
+.hero{
+    padding: 3rem 1rem;
+ 
+}
+.hero-slide{
+    width: 400px;
+}
+.section2,
+.section3{
+    padding:3rem 1rem;
+}
+
+.hero-text h1{
+    font-size: 4rem;
+}
+.hero-text p{
+    width: 100%;
+}
+.hero-text button{
+    width: 50%;
+}
+.section2-flex{
+    width: 100%;
+    left: 0;
+}
+.section3-flex{
+    gap: 1rem;
+}
+.section3-flex1 h4{
+    font-size: 1.2rem;
+    gap: 0.6rem;
+}
+.section3-flex1 h4{
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+.sect-grid{
+    margin-bottom: 2rem;
+}
+.section3-flex1 h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.section3-flex1 p{
+    text-align: center;
+}
+.section3 button {
+    width: 30%;
+}
+.section4{
+    padding: 5rem 1rem;
+}
+.section4-text{
+    width: 60%;
+}
+.section5-container{
+    gap: 3rem;
+    padding: 2rem 1rem;
+}
+.inner-grid{
+    grid-template-columns: repeat(1,1fr);
+}
+.g2{
+    width: 60%;
+    left: -1%;
+}
+.gallery-img .overlay-cont{
+    min-width: 30%;
+}
+.gallery-container{
+    gap: 0.5rem;
+}
+.gallery-text{
+    margin-left: 0.3rem;
+}
+.btn2{
+    width: 20%;
+}
+.image-content{
+    width: 50%;
+}
+.footer-container{
+    padding: 12rem 1rem 0 1rem;
+}
+}
+
+@media screen and (max-width:768px){
+header{
+ height: 100%;
+ position: relative;
+}
+nav{
+    padding: 2rem 1rem;
+}
+.menu{
+    display: block;
+    margin-top: 1rem;
+margin-left: 1rem;
+line-height: 2.3rem;
+}
+.menu-line{
+    height: 1px;
+    width: 90%;
+    background-color: #f1e5b9;
+    display: block;
+    margin-right: 3rem;
+}
+
+.menu li a{
+    color: #DCCA87;
+
+}
+.sublink, .rot-desk{
+    display: none;
+}
+.mob-logo{
+    display: block;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.header-content{
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.header-content h5 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 0.4rem;
+    color: #DCCA87;
+}
+
+.header-content p {
+    font-family: 'Open Sans', sans-serif;
+    color: #AAAAAA;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.mob{
+    display: block;
+    list-style: none;
+    margin-left: 1rem;
+}
+.menu-imgmobile{
+    display: block;
+    margin: 1rem auto 0 auto;
+}
+.mob li a{
+    color: #DCCA87;
+
+}
+.sublink li{
+    padding:0.6rem 0;
+}
+.mob li a:hover{
+    color: #FFFFFF;
+    margin-left: 0.4rem;
+}
+.menu li a:hover{
+    color: #FFFFFF;
+    margin-left: 0.4rem;
+}
+.navlinks{
+height: 100vh;
+width: 100%;
+background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+ box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+position:absolute;
+top: 0;
+left: -100%;
+overflow: hidden;
+z-index: 2;
+transition: .5s ease;
+}
+#close {
+    display: block;
+    font-size: 2rem;
+    color:#DCCA87;
+    margin: 1rem;
+    text-align: right;
+    
+}
+#open{
+    display: block;
+font-size: 1.5rem;
+color: #DCCA87;
+
+}
+.hero{
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 3rem;
+    padding-bottom: 0.6rem;
+}
+.hero p{
+    font-size: 0.9rem;
+    padding: 0.7rem 0;
+    width: 100%;
+}
+.hero-slide{
+    width: 300px;
+    height: 350px;
+    margin: 3rem auto 0 auto;
+}
+.section2,
+.section3,
+.section4{
+    padding: 3rem 1rem;
+}
+.section2-flex{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    gap: 1rem;
+}
+.section2-img{
+    margin: 15rem auto;
+
+}
+.section2-img img,
+.section4-text{
+    width: 100%;
+    margin-top: 2rem;
+}
+.sect-img{
+    width:11%;
+}
+.one, .two{
+    text-align: center;
+    padding: 0 1rem;
+}
+.section3-flex, 
+.section4-container,
+.section6-container{
+flex-direction: column;
+gap: 2rem;
+text-align: center;
+}
+.section4-text h6{
+padding-top: 1rem;
+}
+.section3-flex1,
+.section3-img{
+    width: 100%;
+}
+.section3-flex1 h3{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.section3-flex1 h4{
+    text-align: center;
+    justify-content: center;
+}
+.sect3-img{
+    width: 35%;
+}
+.sect-grid{
+    padding: 0 0 1rem 0;
+    margin-bottom: 2rem;
+}
+.section3 button{
+    width: 50%;
+    margin: 0;
+}
+.section3-flex1 p{
+    padding: 0.3rem 0;
+    text-align: center;
+}
+.section5-container{
+  flex-direction: column;  
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+.inner-grid{
+grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+}
+.inner-gridtxt p{
+    line-height: 1.5;
+}
+.sect5-img{
+    width: 25%;
+}
+.g2{
+left: -2%;
+}
+.rev-p{
+    line-height: 1.5;
+}
+.gallery-container{
+    flex-direction: column;
+}
+.gallery-text{
+    margin: 0;
+    text-align: center;
+}
+.gallery-img{
+    max-height: 600px;
+}
+.gallery-img .overlay-cont{
+    min-width: 60%;
+}
+.image-content{
+    width: 100%;
+}
+.btn2{
+    width: 30%;
+}
+.news-sect{
+    width: 80%;
+    left: 9%;
+    top: -16%;
+    margin: 0 auto;
+    height: 315px;
+}
+form button{
+    width: 90%;
+}
+form input{
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.footer-container{
+    grid-template-columns: repeat(1,1fr);
+    padding: 16rem 0 0 0;
+    gap: 2rem;
+}
+.top {
+    position: absolute;
+    right: 5%;
+top:85%;
+}
+}
